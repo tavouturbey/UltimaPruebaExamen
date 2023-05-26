@@ -8,8 +8,8 @@ public class Asdasd {
 	        int edad = scanner.nextInt();
 
 	        // Comprobar si la edad está entre 18 y 66
-	        if (edad < 18 || edad > 65) {
-	            System.out.println("La edad debe estar entre 18 y 65 años.");
+	        if (edad < 18 || edad > 75) {
+	            System.out.println("La edad debe estar entre 18 y 75 años.");
 	        } else {
 	            // Pedir DNI al usuario
 	            System.out.print("Introduce tu DNI (8 números y 1 letra): ");
